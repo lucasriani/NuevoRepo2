@@ -1,0 +1,16 @@
+@import url(header.css);
+@import url(footer.css);
+
+body{
+    height: 100%;
+    min-height: 100vh;
+    
+    /*FLEX*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    flex: 1;
+}
